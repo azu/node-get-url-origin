@@ -1,6 +1,6 @@
 {
   "name": "get-url-origin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get origin from url string in Node.js",
   "keywords": [
     "node.js",
