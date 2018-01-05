@@ -30,6 +30,7 @@ export declare const getURLOrigin: (urlString: string) => string | null;
 ### Example
 
 ```ts
+import { getURLOrigin } from "get-url-origin";
 getURLOrigin('https://example.com/file/to/path?example'); // => 'https://example.com'
 getURLOrigin('http://example.com:80/path/to/file'); // => 'http://example.com:80'
 ```
