@@ -1,6 +1,10 @@
-# get-url-origin
+# get-url-origin [![Build Status](https://travis-ci.org/azu/node-get-url-origin.svg?branch=master)](https://travis-ci.org/azu/node-get-url-origin)
 
-Get origin from url string in Node.js
+Get origin from url string in Node.js.
+
+This library based on Node.js's [Legacy URL API](https://nodejs.org/api/url.html#url_legacy_url_api "Legacy URL API")(`require('url').Url`)
+
+If you can use Node.js >=7, please use New built-in [URL module](https://nodejs.org/api/url.html#url_url_origin).
 
 ## Install
 
